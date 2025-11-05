@@ -1,4 +1,4 @@
-koordinat titik
+## koordinat titik
 
 <img width="612" height="501" alt="image" src="https://github.com/user-attachments/assets/9ff8d1e2-5142-4ecd-9155-62102b79b36f" />
 
@@ -8,7 +8,26 @@ koordinat titik
         print(".", end="")
     print()
 
-sistem koordinat
+penjelasan kode:
+for y in range(0, 5):
+Ini adalah perulangan luar (outer loop).
+range(0, 5) berarti y akan berjalan dari 0 sampai 4 (sebanyak 5 kali).
+Artinya, perulangan ini akan membuat 5 baris output.
+for x in range(0, 10):
+Ini adalah perulangan dalam (inner loop).
+range(0, 10) berarti x akan berjalan dari 0 sampai 9 (sebanyak 10 kali).
+Setiap kali baris y berjalan, perulangan ini akan mencetak 10 titik (.).
+print(".", end="")
+print()
+Baris kosong ini berfungsi untuk pindah ke baris baru setelah selesai mencetak 10 titik.
+Jadi setelah perulangan x selesai, program membuat baris baru sebelum lanjut ke nilai y berikutnya.
+
+kode ini membuat pola persegi panjang dari titik-titik (.) berukuran:
+    5 baris
+    10 kolom
+
+
+## sistem koordinat
 
 <img width="1450" height="668" alt="image" src="https://github.com/user-attachments/assets/6f24b9b3-7506-449a-9331-e3b235aeb0e7" />
 
@@ -62,8 +81,11 @@ sistem koordinat
             print(".", end=" ")
     print()
 
+penjelasan kode:
+Program ini menghitung jarak antara dua titik menggunakan rumus Pythagoras dan menentukan kuadran titik pertama berdasarkan nilai x dan y. Lalu, program menampilkan simulasi layar 10x5 piksel, mencetak titik (x=3, y=2) dengan simbol “X” dan titik lainnya dengan simbol “.”.
 
-soal no1
+
+## soal no1
 
 <img width="835" height="477" alt="image" src="https://github.com/user-attachments/assets/0933fe7d-5bbd-4eb3-a68d-2cbeba243cf6" />
 
@@ -93,8 +115,11 @@ soal no1
     print(f"{idx} ", end="")
     print(' '.join(baris))
 
+    penjelasan kode:
+ Membuat grid 10×10 berisi titik (.) menggunakan list dua dimensi:
+ Program menampilkan kotak 10×10 dengan koordinat dan menandai posisi (4,6) menggunakan huruf X, seperti peta kecil di layar.
 
-soal no2
+## soal no2
 
 <img width="847" height="360" alt="image" src="https://github.com/user-attachments/assets/5ab909f9-5a97-489a-a9a0-cf830aee8661" />
 
@@ -127,6 +152,12 @@ soal no2
     print("Titik-titik koordinat garis:")
     for p in points:
     print(p)
+
+penjelasan kode:
+Program ini menggunakan algoritma DDA (Digital Differential Analyzer) untuk menghitung koordinat titik-titik di antara dua titik garis.
+steps menentukan banyaknya langkah.
+x_inc dan y_inc menentukan seberapa besar perubahan tiap langkah.
+Hasil akhirnya adalah sekumpulan titik yang membentuk garis dari (0,0) ke (5,3).
 
 
 
